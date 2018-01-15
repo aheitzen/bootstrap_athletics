@@ -42,7 +42,12 @@ h1, h2, h3 {
 }
 
 #hero {
-	height: 85%;
-	background-color: pink;
+	height: 90%;
+	/*background-color: pink;*/
+}
+
+video {
+	height: auto;
+	width: 100%;
 }
 
