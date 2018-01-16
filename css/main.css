@@ -39,15 +39,53 @@ a.nav-link {
 
 h1, h2, h3 {
 	text-align: center;
+	
+
+}
+
+.test {
+  	position: absolute;
+  	top: 35%; right: 0; bottom: 0; left: 0;
+
+}
+
+.test1 {
+  	position: absolute;
+  	top: 0; right: 0; bottom: 0; left: 0;
+
 }
 
 #hero {
 	height: 90%;
-	/*background-color: pink;*/
 }
 
 video {
 	height: auto;
 	width: 100%;
 }
+
+img {
+	height: 100px;
+	width: 90px;
+	margin-left: 1.5em;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+	background-color: transparent !important;
+	position: fixed;
+}
+
+a.nav-link {
+    margin-left: 45px;
+}
+
+#nav {
+	height: 40px;
+}
+
+input.form-control {
+	height: 30px;
+	margin-right: 5px;
+}
+
 
