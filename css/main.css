@@ -169,4 +169,28 @@ button.btn.btn-outline-primary {
 	border: 1px solid white;
 }
 
+.navbar-brand-mobile {
+	display: none;
+
+}
+
+#mobile-logo {
+	height: 30px;
+	width: 30px;
+	margin: 20px;
+
+}
+
+/*MOBILE MEDIA QUERY*/
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px) {
+  	.navbar-brand {
+  		display: none;
+  	}
+  	.navbar-brand-mobile {
+  		display: inline;
+  	}
+}
+
 
