@@ -338,15 +338,31 @@ img.carousel-img {
 
 
 svg.svg-inline--fa.fa-facebook-f.fa-w-9, svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16, svg.svg-inline--fa.fa-twitter.fa-w-16, svg.svg-inline--fa.fa-youtube.fa-w-18 {
-	font-size: 1.3em;
+	font-size: 1em;
 	margin-top: 1.5em;
 	color: white;
+	margin-left: 20px;
 }
 
 svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
 	margin-top: 0;
 }
 svg.svg-inline--fa.fa-facebook-f.fa-w-9:hover {
+	color: var(--third-color);
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16:hover {
+	color: var(--third-color);
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-twitter.fa-w-16:hover {
+	color: var(--third-color);
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-youtube.fa-w-18:hover {
 	color: var(--third-color);
 	cursor: pointer;
 }
@@ -386,7 +402,7 @@ h6 {
 
 #meta-footer {
 	background: linear-gradient(180deg, deepskyblue 65%, #0f69a5 35%);
-	height: 120px;
+	height: 140px;
 }
 
 .meta-footer-icon {
@@ -421,5 +437,30 @@ h6 {
 	color: #0f69a5;
 	font-weight: 900;
 }
+
+svg.svg-inline--fa.fa-plus.fa-w-14 {
+	margin: 0 auto; 
+	display: block; 
+	font-size: 40px; 
+	margin-top: 1em; 
+	color: var(--third-color);
+}
+
+.card {
+	height: 500px;
+	border: var(--third-color) 2px solid;
+	margin: 2em 0 2em 0;
+}
+
+svg.svg-inline--fa.fa-microphone.fa-w-12 {
+	margin: 0 auto; 
+	display: block; 
+	font-size: 40px; 
+	margin-top: 1em; 
+	color: var(--third-color);
+}
+
+
+
 
 
