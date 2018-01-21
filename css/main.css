@@ -136,7 +136,7 @@ h1 {
 h2 {
 	text-align: center;
 	color: var(--primary-color);
-	font-family: var(--paragraph-font);
+	font-family: var(--header-font);
 	font-size: 1.3em;
 	text-align: center;
 	margin-top: var(--small-em);
@@ -382,6 +382,7 @@ h6 {
 	width: 100%;
 	background-color: deepskyblue;
 	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 .pinapple {
@@ -431,6 +432,7 @@ h6 {
 .footer-paragraph:hover {
 	color: var(--third-color);
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 .footer-headers {
@@ -448,8 +450,9 @@ svg.svg-inline--fa.fa-plus.fa-w-14 {
 
 .card {
 	height: 500px;
-	border: var(--third-color) 2px solid;
+	border: white 2px solid;
 	margin: 2em 0 2em 0;
+	background-color: white;
 }
 
 svg.svg-inline--fa.fa-microphone.fa-w-12 {
@@ -460,7 +463,57 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 	color: var(--third-color);
 }
 
+.underline-hover:hover {
+	color: var(--third-color);
+	text-decoration: underline;
+	cursor: pointer;
+}
 
+.instagram {
+	height: 400px;
+}
+
+.card-img-top {
+	width: auto;
+	height: 100%;
+}
+
+.d-block {
+	width: 293px;
+	height: 293px;
+}
+
+.carousel-control-next {
+	right: 205px;
+}
+
+.instagram-section {
+	/*background-color: var(--third-color);*/
+	height: 500px;
+	background-image: 
+
+}
+
+.carousel {
+	margin-left: 175px;
+}
+
+.test-section {
+	height: 500px;
+	background-color: #0f69a5;
+
+}
+
+/*#insta-test {
+	border: 2px var(--third-color) solid;
+	border-radius: 0;
+	margin: 20px;
+
+}*/
+
+#health-news {
+	background-color: var(--secondary-color);
+}
 
 
 

@@ -15,13 +15,13 @@
 // 	}
 //  }, 5600); //5600
 
-var myArray = ['body type', 'aesthetic', 'goals', 'sport', 'destination'];
-var currentIndex = 0
-var timer = setInterval(function(){
-	$("#selector").text(myArray[currentIndex]);
-	currentIndex++;
-	if (currentIndex == myArray.length) {
-		currentIndex = 0;
-	}
- }, 5600);
+// var myArray = ['body type', 'aesthetic', 'goals', 'sport', 'destination'];
+// var currentIndex = 0
+// var timer = setInterval(function(){
+// 	$("#selector").text(myArray[currentIndex]);
+// 	currentIndex++;
+// 	if (currentIndex == myArray.length) {
+// 		currentIndex = 0;
+// 	}
+//  }, 5600);
 
