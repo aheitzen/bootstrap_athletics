@@ -163,6 +163,7 @@ p.product-grid-paragraph {
 	margin-left: 105px;
 	font-family: var(--paragraph-font);
 
+
 }
 
 span {
@@ -192,12 +193,17 @@ img {
 }
 
 #mission-statment-img {
-	height: 40%;
-	width: auto;
+	height: 100%;
+	width: 100%;
 }
 
 .no-margin {
 	margin: 0;
+}
+
+#mission-statment {
+	background-color: deepskyblue;
+	
 }
 
 .product-grid-img {
@@ -207,7 +213,17 @@ img {
 }
 
 #product-grid {
-	background-color: white;
+	background-color: #0f69a5;
+	z-index: 3;
+
+}
+
+#mission-header {
+	font-family: var(--paragraph-font);
+	color: var(--primary-color);
+	text-align: center;
+	margin-top: 100px;
+	font-size: 35px;
 }
 
 #mobile-logo {
@@ -286,7 +302,15 @@ img.carousel-img {
     bottom: -150px;
     right: -15px;
 }
-
+#hero {
+	height: 100%;
+	background-color: white;
+	/*background-image: url("../img/clip-water.jpg");*/
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}
 #hero-position {
 	overflow-x: hidden;
 }
@@ -309,6 +333,11 @@ img.carousel-img {
 
 }
 
+.white-border {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
 @keyframes MoveSideWays {
   0% {
     transform: translate(0px, 0px) rotate(-25deg);
@@ -445,7 +474,7 @@ svg.svg-inline--fa.fa-plus.fa-w-14 {
 	display: block; 
 	font-size: 40px; 
 	margin-top: 1em; 
-	color: var(--third-color);
+	color: deepskyblue;
 }
 
 .card {
@@ -455,12 +484,18 @@ svg.svg-inline--fa.fa-plus.fa-w-14 {
 	background-color: white;
 }
 
+.card:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+	cursor: pointer;
+}
+
 svg.svg-inline--fa.fa-microphone.fa-w-12 {
 	margin: 0 auto; 
 	display: block; 
 	font-size: 40px; 
 	margin-top: 1em; 
-	color: var(--third-color);
+	color: deepskyblue;
 }
 
 .underline-hover:hover {
@@ -504,16 +539,98 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 
 }
 
-/*#insta-test {
-	border: 2px var(--third-color) solid;
-	border-radius: 0;
-	margin: 20px;
+#insta-test {
+	background-color: #0f69a5;
 
-}*/
+}
 
 #health-news {
-	background-color: var(--secondary-color);
+	background-color: var(--third-color);
 }
 
 
+
+
+
+
+
+
+
+
+ .clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
+
+.clip-text_one {
+    /*background: url("../img/Water.mp4");*/
+    background-image: url("../img/clip-water.jpg");
+    background-position: cover;
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/*.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: cover;
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}*/
+
+/*.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+    background-position: cover;
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	width: 100%;
+}*/
+
+/* Text Background (black zone) */
+/*.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: white;
+}
+*/
 
