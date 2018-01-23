@@ -681,12 +681,27 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
     transform: translate(-50%, -50%);
 }
 
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+
+.second-pg-img {
+	height: 100%;
+	width: 100%;
+
+
 }
 
+#second-product-grid {
+	margin-top: 6em;
+	margin-bottom: 6em;
+	
+}
+
+.text-overlay {
+	position: absolute;
+	margin: 0;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    color: blac;
+    font-family: var(--header-font);
+    z-index: 10;
+}
