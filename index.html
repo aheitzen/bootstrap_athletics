@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/open-iconic-bootstrap.css">
 	<link rel="icon" type="text/css" href="fonts/open-iconic.otf">
 	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="css/animate.css">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -41,25 +43,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid" id="hero">
-		<div class="row">
-			<div class="col">
-				<!-- <div class="water-background">
-					<div class="white-border"> -->
-						<div class="clip-text clip-text_one">HORIZON<br> SWIMWEAR</div>
-				<!-- 	</div>
-				</div> -->
-				
-			</div>
-		</div>
-	</div>
-<!-- 	<div class="container-fluid no-padding" id="hero">
+	<div class="container-fluid no-padding" id="hero">
 		<div class="row">
 			<div class="col" id="hero-position">
 				<video playsinline autoplay muted poster="" loop> 
 					<source src="img/Water.mp4" type="video/mp4">  
-				</video> -->
-<!-- 				<div class="navbar-position">
+				</video>
+				<div class="navbar-position">
 					<nav class="navbar navbar-expand-lg no-padding">
 				  		<a class="navbar-brand" href="#">
 				  			<img src="img/horizon_logo.svg">
@@ -88,55 +78,63 @@
 					  </div>
 					</nav>
 				</div>
-				 -->
-				<!-- <div class="hero-type-position"> -->
-					<!-- <h2>Horizon Swimwear</h2> -->
-
-
-<!-- 					<h1>Whatever your</h1><span id="selector">adventure</span>
-					<h2>Always look towards the Horizon</h2> -->
-	<!-- 				<button type="button" class="btn btn-outline-primary align-items" id="test-button">Latest Products</button>
+				
+				 <div class="hero-type-position">
+					<h2>Horizon Swimwear</h2>
+					<h2>Always look towards the Horizon</h2> 
+					<button type="button" class="btn btn-outline-primary align-items" id="test-button">Latest Products</button>
 					<button type="button" class="btn btn-outline-primary">Contact</button>
 					
-				</div> -->
-<!-- 				<div class="pink-tube">
+				</div>
+				<div class="pink-tube">
 					<img id="FUCK" src="img/test copy.png">
-				</div> -->
-<!-- 				<div class="goggle-float">
-					<img id="goggle-img" src="img/goggle-transparent.png">
-					<img id="goggle-img" src="img/pink-sunnies.png">
-				</div> -->
-<!-- 			</div>
+				</div> 
+ 			</div>
 		</div>
-	</div> -->
+	</div> 
 	<div class="container-fluid" id="product-grid">
 		<div class="row">
 			<div class="col">
-				<img class="mx-auto d-block product-grid-img" src="img/featured-front.jpeg">
+				<div class="wow fadeIn">
+					<img class="mx-auto d-block product-grid-img fade-in" src="img/featured-front.jpeg">
+				</div>
 			</div>
 			<div class="col">
 				<div class="dead-center">
-				<p class="product-grid-paragraph">Horizon swimwear is honored to be partnered with Aerie for a limited edition collaboration. Shop this new line that features fabulous prints, full to modest coverage, and a variety of swim styles.</p>
+					<div class="wow fadeIn">
+						<h3 class="product-grid-headers fade-in">Horizon x Aerie</h3>
+						<p class="product-grid-paragraph fade-in">Horizon swimwear is honored to be partnered with Aerie for a limited edition collaboration. Shop this new line that features fabulous prints, full to modest coverage, and a variety of swim styles. <lead class="underline-hover"><em>Click here to shop the limited edition now.</em></lead></p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col">
 				<div class="dead-center">
-				<p class="product-grid-paragraph">These swimsuits rock. Based in comfort, durability, and quality these swimsuits are our most popular. Shop our curated collection of customer and employee favorites.</p>
+					<div class="wow fadeIn">
+						<h3 class="product-grid-headers fade-in one">Fan Favorites</h3>
+						<p class="product-grid-paragraph fade-in one">These swimsuits rock. Based in comfort, durability, and quality these swimsuits are our most popular. Shop our curated collection of customer and employee favorites. <lead class="underline-hover"><em>Click here to see our highest rated items.</em></lead></p>
+					</div>
 				</div>
 			</div>
 			<div class="col">
-				<img class="mx-auto d-block product-grid-img" src="img/favorites-swim.jpeg">
+				<div class="wow fadeIn">
+					<img class="mx-auto d-block product-grid-img fade-in one" src="img/favorites-swim.jpeg">
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col">
-				<img class="mx-auto d-block product-grid-img" src="img/winter-blues.jpeg">
+				<div class="wow fadeIn">
+					<img class="mx-auto d-block product-grid-img fade-in two" src="img/winter-blues.jpeg">
+				</div>
 			</div>
 			<div class="col">
 				<div class="dead-center">
-				<p class="product-grid-paragraph">From aqua to colbalt and cyan to cornflower, if you love blue, we got you covered. Shop our seasonal line <em>Winter Blues</em> and discover our fabulous new prints and colors.</p>
+					<div class="wow fadeIn">
+						<h3 class="product-grid-headers fade-in two">Winter Blues</h3>
+						<p class="product-grid-paragraph fade-in two">From aqua to colbalt and cyan to cornflower, if you love blue, we got you covered. Shop our seasonal line <em>Winter Blues</em> and discover our fabulous new prints and colors. <lead class="underline-hover"><em>Click here to shop our Winter Blues collection.</em></lead></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -335,6 +333,7 @@
 		</div>
 	</div>
 <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
