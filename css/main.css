@@ -550,7 +550,7 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 }
 
 .instagram-section {
-	/*background-color: var(--third-color);*/
+	background-color: var(--primary-color);
 	height: 500px;
 	background-image: 
 
@@ -561,15 +561,15 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 }
 
 .test-section {
-	height: 500px;
+	height: 100%;
 	background-color: #0f69a5;
 
 }
 
-#insta-test {
-	background-color: #0f69a5;
+/*#insta-test {
+	
 
-}
+}*/
 
 #health-news {
 	background-color: var(--third-color);
@@ -692,7 +692,7 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 #second-product-grid {
 	margin-top: 6em;
 	margin-bottom: 6em;
-	
+
 }
 
 .text-overlay {
