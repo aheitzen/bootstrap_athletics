@@ -21,10 +21,13 @@ html, body {
 }
 
 #selector {
-	font-family: var(--header-font);
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    margin: 1.5em 2em 0 2em;
+    line-height: 2.5;
+    font-size: 1em;
+    text-align: center;
 
-	font-size: 4.5rem;
-	margin-top: 25px;
 
 }
 
@@ -566,14 +569,60 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 
 }
 
-/*#insta-test {
-	
-
-}*/
-
 #health-news {
 	background-color: var(--third-color);
 }
+
+.test-header {
+	text-align: center;
+	color: var(--primary-color);
+	font-family: var(--header-font);
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 30px 0px;
+}
+
+svg.svg-inline--fa.fa-quote-left.fa-w-16 {
+	margin: 0 auto;
+	margin-top: 10px;
+	color: var(--third-color);
+	display: block;
+	font-size: 1.7em;
+}
+
+.circle {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: transparent;
+	margin: 0 auto;
+	border: white 3px solid;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+
+.testomonial-img {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 3em;
+	margin-bottom: 2.5em;
+}
+
+/*.testomonial-text {
+	color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    margin: 2.5em 2em 0 2em;
+    line-height: 2.5;
+    font-size: 1em;
+}*/
+
+.testomonial-em-quote {
+	font-family: var(--header-font);
+}
+
 
 
 
@@ -695,13 +744,30 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 
 }
 
-.text-overlay {
+/*.text-overlay {
 	position: absolute;
 	margin: 0;
     top: 50%;
     left: 57%;
     transform: translate(-50%, -50%);
-    color: blac;
+    color: black;
     font-family: var(--header-font);
     z-index: 10;
+}*/
+
+#parent-selector {
+	overflow: hidden;
 }
+
+/*#selector {
+		color: var(--secondary-color);
+	font-family: var(--paragraph-font);
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	margin: 40px;
+	font-size: 25px;
+
+}*/
+
+
