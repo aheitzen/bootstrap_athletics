@@ -559,9 +559,9 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 
 }
 
-.carousel {
+/*.carousel {
 	margin-left: 175px;
-}
+}*/
 
 .test-section {
 	height: 100%;
@@ -597,7 +597,7 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	background-color: transparent;
 	margin: 0 auto;
 	border: white 3px solid;
-	margin-bottom: 2em;
+	margin-bottom: 1.8em;
 	margin-top: 1em;
 }
 
@@ -769,5 +769,22 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	font-size: 25px;
 
 }*/
+
+.insta-img {
+	height: 293px;
+	width: 293px;
+	margin: 0 auto;
+}
+
+.insta-head {
+	font-family: var(--header-font);
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 30px 0px;
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    color:var(--third-color); 
+
+}
 
 
