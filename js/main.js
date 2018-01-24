@@ -45,6 +45,11 @@ var timer = setInterval(function(){
 new WOW().init();
 
 
+
+
+
+
+
 // $(document).ready(function(){
 //     $("button").click(function(){
 //         var div = $("div");
