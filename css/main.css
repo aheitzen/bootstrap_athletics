@@ -85,10 +85,18 @@ button.btn.btn-outline-secondary {
 	border: 1px solid white;
 }
 
-button.btn.btn-outline-primary:hover {
-	background-color: white;
-	color: deepskyblue;
+button.btn.btn-outline-primary {
+	background-color: #0f69a5;
+	border: #0f69a5 solid 1px;
 }
+
+#change-button {
+	background-color: #0f69a5;
+	border: #0f69a5 solid 1px;
+
+}
+
+button.btn.btn-outline-primary
 
 button.btn.btn-outline-secondary:hover {
 	background-color: white;
@@ -97,6 +105,8 @@ button.btn.btn-outline-secondary:hover {
 
 #test-button {
 	margin-left: 40%;
+	background-color: #0f69a5;
+	border: #0f69a5 solid 1px;
 	
 }
 
@@ -132,9 +142,10 @@ input.form-control {
 h1 {
 	text-align: center;
 	color: var(--primary-color);
-	font-family: var(--paragraph-font);
+	font-family: var(--header-font);
 	text-align: center;
-	font-size: 60px;
+	font-size: 130px;
+	margin-top:;
 }
 
 h2 {
@@ -180,7 +191,7 @@ p.product-grid-paragraph {
 }
 
 nav.navbar.navbar-expand-lg.no-padding {
-	background-color: #0f69a5;
+	background-color: var(--third-color);
 	margin-top: -11px;
 }
 
@@ -245,6 +256,7 @@ img {
 #product-grid {
 	/*background-color: deepskyblue;*/
 	margin-bottom: 50px;
+	margin-top: 50px;
 
 }
 
@@ -339,6 +351,42 @@ img.carousel-img {
     bottom: -150px;
     right: -15px;
 }
+
+.underwear {
+	position: absolute;
+    height: 550px;
+    width: 550px;
+   	animation: MoveSideWays 30s linear infinite;
+    z-index: 2;
+    transform: rotate(-25deg);
+    left: 50px; /*-25*/
+    top: 100px;
+
+}
+
+img#underwear-img {
+	height: 80%;
+	width: 80%;
+
+}
+
+/*.goggle-float {
+	position: absolute;
+    height: 500px;
+    width: 500px;
+   	animation: MoveSideWays 10s linear infinite;
+    z-index: 2;
+    transform: rotate(-25deg);
+    left: 50px; 
+    top: 50px;
+
+}
+
+#goggle-img {
+	height: 80%;
+	width: 80%;
+
+}*/
 /*#hero {
 	height: 100%;
 	background-color: white;
@@ -864,7 +912,8 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 }
 
 #hero-two {
-	background-image: url("../img/hero-test.jpg");
+	/*background-image: url("../img/hero-test.jpg");*/
+/*	background: linear-gradient(rgba(0, 191, 255, 0.7), rgba(225, 225, 255, 0.5)), url("../img/hero-test.jpg");
 	height: 100%;
 	width: 100%;
 	background-position: cover;
@@ -872,8 +921,11 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: cover;
-	    display: flex;
-    justify-content: center;
+	display: flex;
+    justify-content: center;*/
+    background-color: #0f69a5;
+    height: 100%;
+    width: 100%;
 }
 
 #news {
