@@ -861,6 +861,21 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	cursor: pointer;
 }
 
+.blue-underline-text {
+	color:  #0f69a5;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+.blue-underline-text:hover {
+	color: deepskyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
 .hot-pink-underline-text:hover {
 	color: var(--third-color);
 	text-decoration: underline;
