@@ -1,6 +1,7 @@
 :root {
 	--header-font: 'Varela Round', Sans-Serif;
 	--paragraph-font: 'Open Sans', sans-serif;
+	--margin-large: 4em;
 	--margin-medium: 2.5em;
 	--margin-small: 1.5em;
 }
@@ -14,6 +15,7 @@
 #main_PD {
 	height: 550px;
 	width: auto;
+	margin-top: 10em;
 }
 
 #main-nav {
@@ -55,5 +57,28 @@ p {
 
 a:hover {
 	text-decoration: none;
+}
+
+#product-details {
+	margin-top: var(--margin-large);
+}
+
+.black-header {
+	color: black;
+	margin-bottom: var(--margin-small);
+}
+
+ul {
+	padding-left: inherit;
+}
+
+li {
+	font-family: var(--paragraph-font);
+	font-size: 15px;
+	line-height: 41px;
+}
+
+.card {
+	margin-top: 10em;
 }
 
