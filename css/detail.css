@@ -1,0 +1,35 @@
+#meta-nav-detail {
+	background-color: deepskyblue;
+	height: 2em;
+	padding-top: 3px;
+}
+
+#main_PD {
+	height: 550px;
+	width: auto;
+}
+
+#main-nav {
+	background-color: black;
+	width: 100%;
+}
+
+.thumbnail-images {
+	height: 50px;
+	width: 50px;
+}
+
+button#dropdownMenuButton {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+h5 {
+	text-align: center;
+}
+
+.freq-bought-img {
+	height: 300px;
+}
+
