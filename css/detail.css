@@ -1,3 +1,10 @@
+:root {
+	--header-font: 'Varela Round', Sans-Serif;
+	--paragraph-font: 'Open Sans', sans-serif;
+	--margin-medium: 2.5em;
+	--margin-small: 1.5em;
+}
+
 #meta-nav-detail {
 	background-color: deepskyblue;
 	height: 2em;
@@ -26,7 +33,20 @@ button#dropdownMenuButton {
 }
 
 h5 {
-	text-align: center;
+	font-family: var(--header-font);
+	margin-bottom: var(--margin-medium);
+	margin-top: var(--margin-medium);
+}
+
+h6 {
+	font-family: var(--paragraph-font);
+	margin-top: var(--margin-small);
+	color: #0f69a5;
+}
+
+p {
+	font-family: var(--paragraph-font);
+	color: #0f69a5;
 }
 
 .freq-bought-img {
