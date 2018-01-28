@@ -90,8 +90,17 @@ li {
 
 span {
 	text-decoration: underline;
+
+}
+
+.thumbnail-main-view {
+	height: 100px;
+	margin-top: 11px;
 	
 }
 
+.top-margin-thumbnail {
+	margin-top: 10em;
+}
 
 
