@@ -80,5 +80,18 @@ li {
 
 .card {
 	margin-top: 10em;
+
 }
+
+.meta-nav-text {
+	margin-top: -8px;
+	color: white;
+}
+
+span {
+	text-decoration: underline;
+	
+}
+
+
 
