@@ -45,6 +45,25 @@ var timer = setInterval(function(){
 new WOW().init();
 
 
+$( ".flip-img" ).hover(function() {
+	$( this ).attr('src', 'img/black_onepiece_black.jpeg');
+},function() {
+	$( this ).attr('src', 'img/black_one_piece.jpeg');
+});
+
+$( ".flip-img-two" ).hover(function() {
+	$( this ).attr('src', 'img/orange_onepiece_back.jpeg');
+},function() {
+	$( this ).attr('src', 'img/one-piece.jpeg');
+});
+
+$( ".flip-img-three" ).hover(function() {
+	$( this ).attr('src', 'img/sunglasses_back.jpeg');
+},function() {
+	$( this ).attr('src', 'img/sunglasses.jpeg');
+});
+
+
 
 
 
