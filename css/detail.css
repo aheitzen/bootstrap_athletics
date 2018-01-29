@@ -101,10 +101,17 @@ li {
 
 button#dropdownMenuButton {
 	margin-bottom: var(--margin-small);
+	background-color: transparent;
+	font-family: var(--header-font);
+	text-align: left;
 }
 
 button#dropdownMenu2 {
 	margin-bottom: var(--margin-small);
+	background-color: transparent;
+	border: solid black 1px;
+	color: black;
+	font-family: var(--header-font);
 }
 .meta-nav-text {
 	margin-top: -8px;
@@ -130,9 +137,11 @@ span {
 	margin-top: 10em;
 }
 
-/*button.btn.btn-primary.btn-lg.btn-block {
+button.btn.btn-primary.btn-lg.btn-block {
 	background-color: transparent;
-	margin-top: 8.5em;
-}*/
+	color: black;
+	font-family: var(--header-font);
+	border: black 1px solid;
+}
 
 
