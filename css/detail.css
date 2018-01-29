@@ -99,7 +99,11 @@ span {
 	
 }
 
-.top-margin-thumbnail {
+.thumbnail-main-view:hover {
+	cursor: pointer;
+}
+
+.thumbnail-main-view:first-child {
 	margin-top: 10em;
 }
 

@@ -36,6 +36,26 @@ $( ".flip-img-three" ).hover(function() {
 	$( this ).attr('src', 'img/sunglasses.jpeg');
 });
 
+$( "#thumb-one" ).click(function() {
+	$( "#main_PD" ).attr('src', 'img/PD_main.jpeg');
+});
+
+$( "#thumb-two" ).click(function() {
+	$( "#main_PD" ).attr('src', 'img/thumb-main-1.jpeg');
+});
+
+$( "#thumb-three" ).click(function() {
+	$( "#main_PD" ).attr('src', 'img/thumb-main-2.jpeg');
+});
+
+$( "#thumb-four" ).click(function() {
+	$( "#main_PD" ).attr('src', 'img/thumb-main-3.jpeg');
+});
+
+$( "#thumb-five" ).click(function() {
+	$( "#main_PD" ).attr('src', 'img/thumb-main-4.jpeg');
+});
+
 
 
 
