@@ -144,4 +144,17 @@ button.btn.btn-primary.btn-lg.btn-block {
 	border: black 1px solid;
 }
 
+.rec-viewed {
+	height: 235px;
+
+	
+}
+
+.rec-viewed:hover {
+	cursor: pointer;
+}
+
+ .recently-viewed {
+ 	margin-bottom: 0;
+ }
 
