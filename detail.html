@@ -13,72 +13,48 @@
 	<link rel="stylesheet" type="text/css" href="css/detail.css">
 </head>
 <body>
-	<div class="container-fluid" id="meta-nav-detail">
+	<div class="container-fluid fixed-top" id="meta-nav-detail">
 		<div class="row">
-			<div class="col">
+			<div class="col no-padding">
 				<ul class="nav justify-content-center">
 				    <li class="nav-item">
-				    	<p class="meta-nav-text">Free shipping and returns. Read our policy <span><a href="#">here.</a></span></p>
+				    	<p class="meta-nav-text">Free shipping and returns. Read our policy <span><a href="#">here.</a></span> &nbsp;<i class="fas fa-times"></i></p>
 				    </li>
 				</ul>
 			</div>
 		</div>
-<!-- 		<div class="row float-right" id="main-nav">
-			<ul class="nav justify-content-end ">
-		  		<li class="nav-item">
-		    		<a class="nav-link active" href="#">Active</a>
-		  		</li>
-		  		<li class="nav-item">
-		   			<a class="nav-link" href="#">Link</a>
-		  		</li>
-		  		<li class="nav-item">
-		    		<a class="nav-link" href="#">Link</a>
-		  		</li>
-		  		<li class="nav-item">
-		    		<a class="nav-link disabled" href="#">Disabled</a>
-		  		</li>
-			</ul>
-		</div> -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+		<div class="row">
+			<div class="col no-padding">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  					<a class="navbar-brand" href="#"><img id="nav-brand" src="img/horizon-min.svg"></a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Featured products<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Womens Swim</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Sale</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
+</div>
+</div>
 	</div>
 	<div class="container h-100">
 		<div class="row h-100 justify-content-center align-items-center mx-auto">
 			<div class="col-2 text-center top-margin-thumbnail">
-					<img id="thumb-one" class="img-responsive img-thumbnail thumbnail-main-view" src="img/PD_main.jpeg">
+					<img id="thumb-one" class="img-responsive img-thumbnail thumbnail-main-view img-rounded" src="img/PD_main.jpeg">
 					<img id="thumb-two" class="img-responsive img-thumbnail thumbnail-main-view" src="img/thumb-main-1.jpeg">
 					<img id="thumb-three" class="img-responsive img-thumbnail thumbnail-main-view" src="img/thumb-main-2.jpeg">
 					<img id="thumb-four" class="img-responsive img-thumbnail thumbnail-main-view" src="img/thumb-main-3.jpeg">
@@ -123,7 +99,7 @@
 					    <a class="dropdown-item" href="#">Black</a>
 					  </div>
 					</div>
-  					</div>
+  					
   					<div class="round-img-section">
   					<a href=""><img src="img/orange_red_thumb.jpeg" alt="..." class="img-thumbnail rounded-circle thumbnail-images"></a>
   					<a href=""><img src="img/grey_thumbnail.jpeg" alt="..." class="img-thumbnail rounded-circle thumbnail-images"></a>
@@ -141,7 +117,7 @@
 					</div>
   					<button type="button" class="btn btn-primary btn-lg btn-block">Add to cart</button>
 
-
+				</div>
 				</div>
 			</div>
 		</div>
@@ -258,13 +234,13 @@
 			</div>
 		</div>
 	</div>
-		<div class="container-fluid" id="footer">
+	<div class="container-fluid" id="footer">
 		<div class="row">
-			<div class="col-4">
+<!-- 			<div class="col-4">
 				<div class="pinapple">
 					<img class="pinapple-img" src="img/pinapple.png">
 				</div>
-			</div>
+			</div> -->
 			<div class="col-2">
 				<h6 class="footer-headers">About</h6>
 				<p class="footer-paragraph">About us</p>
@@ -279,7 +255,7 @@
 				<p class="footer-paragraph">FAQ</p>
 				<p class="footer-paragraph">Find a store</p>
 			</div>
-						<div class="col-2">
+			<div class="col-2">
 				<h6 class="footer-headers">Contact</h6>
 				<p class="footer-paragraph"><span class="oi oi-phone"> &nbsp;</span>(206)867-5309</p>
 				<p class="footer-paragraph"><span class="oi oi-envelope-closed"> &nbsp;</span>contact@horizon.com</p>
@@ -294,6 +270,14 @@
 				<i class="fab fa-youtube"></i>
 			</div>
 		</div>
+<!-- 				<div class="row">
+			<div class="col no-padding">
+				<div id="meta-footer">
+					<span class="meta-footer-icon">&#169; Horizon Swimwear</span>
+					<span class="meta-footer-icon" id=seattle-tag>Made inclusively in Seattle <i class="far fa-heart"></i></span>
+				</div>
+			</div>
+		</div> -->
 	</div>
 			
 					
