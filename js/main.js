@@ -90,6 +90,29 @@ $( "#pp-5" ).hover(function() {
 	$( this ).attr('src', 'img/thumb-main-1.jpeg');
 });
 
+$( "#pp-6" ).hover(function() {
+	$( this ).attr('src', 'img/pp-11.jpeg');
+},function() {
+	$( this ).attr('src', 'img/pp-10.jpeg');
+});
+
+$( "#pp-7" ).hover(function() {
+	$( this ).attr('src', 'img/pp-13.jpeg');
+},function() {
+	$( this ).attr('src', 'img/pp-12.jpeg');
+});
+
+$( "#pp-8" ).hover(function() {
+	$( this ).attr('src', 'img/pp-15.jpeg');
+},function() {
+	$( this ).attr('src', 'img/pp-14.jpeg');
+});
+
+$( "#pp-9" ).hover(function() {
+	$( this ).attr('src', 'img/pp-18.jpeg');
+},function() {
+	$( this ).attr('src', 'img/pp-17.jpeg');
+});
 
 
 
