@@ -158,3 +158,45 @@ button.btn.btn-primary.btn-lg.btn-block {
  	margin-bottom: 0;
  }
 
+ #footer {
+	width: 100%;
+	background-color: deepskyblue;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.pinapple {
+	position: absolute;
+    height: 500px;
+    width: 600px;
+/*   	animation: MoveUpDown 5s ease-in infinite;*/
+    z-index: 2;
+    left: -280px;
+    transform: rotate(15deg);
+
+}
+
+.pinapple-img {
+	height: 100%;
+	width: auto;
+}
+
+.oi.oi-phone, .oi.oi-envelope-closed, .oi.oi-home {
+	color: #0f69a5;
+}
+
+.footer-paragraph {
+	color: var(--primary-color);
+}
+
+.footer-paragraph:hover {
+	color: var(--third-color);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footer-headers {
+	color: #0f69a5;
+	font-weight: 900;
+}
+
