@@ -78,6 +78,18 @@ $( "#pp-3" ).hover(function() {
 	$( this ).attr('src', 'img/pp-5.jpeg');
 });
 
+$( "#pp-4" ).hover(function() {
+	$( this ).attr('src', 'img/pp-8.jpeg');
+},function() {
+	$( this ).attr('src', 'img/pp-7.jpeg');
+});
+
+$( "#pp-5" ).hover(function() {
+	$( this ).attr('src', 'img/thumb-main-2.jpeg');
+},function() {
+	$( this ).attr('src', 'img/thumb-main-1.jpeg');
+});
+
 
 
 
