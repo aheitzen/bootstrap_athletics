@@ -158,12 +158,13 @@ button.btn.btn-primary.btn-lg.btn-block {
 
  .recently-viewed {
  	margin-bottom: 0;
+ 	margin-top: 3em;
  }
 
  #footer {
 	
 	background-color: #0f69a5;
-	margin-top: 7em;
+	margin-top: 6em;
 	box-shadow: 0px -1px 1px gray;
 
 
@@ -209,17 +210,32 @@ button.btn.btn-primary.btn-lg.btn-block {
 	padding-left: 0;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+nav.navbar.navbar-expand-lg.no-padding {
 	margin-top: -20px;
 	background-color: white !important;
 
 }
 
 #nav-brand {
-	width: 30%;
+	width: 25%;
+	margin-left: 2em;
 }
 
- svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16, svg.svg-inline--fa.fa-twitter.fa-w-16, svg.svg-inline--fa.fa-youtube.fa-w-18 {
+.main-nav {
+    color: deepskyblue;
+    margin-left: 4em;
+}
+
+a.nav-link.margin-right {
+    margin-right: 4em;
+    margin-left: 4em;
+    color: deepskyblue;
+}
+a.nav-link.margin-right:hover {
+color: #0056b3;
+}
+ 
+svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16, svg.svg-inline--fa.fa-twitter.fa-w-16, svg.svg-inline--fa.fa-youtube.fa-w-18 {
 	font-size: 1em;
 	margin-top: 1.5em;
 	color: white;
