@@ -53,6 +53,7 @@ p {
 
 .freq-bought-img {
 	height: 300px;
+	cursor: pointer;
 }
 
 a:hover {
@@ -208,6 +209,12 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9, svg.svg-inline--fa.fa-snapchat-ghost.fa
 	height: 25em;
 	margin-bottom: .8em;
 	cursor: pointer;
+	margin-top: 2em;
+	    
+}
+
+#product-margin-top {
+	margin-top: 10em;
 }
 
 .product-color-change {
