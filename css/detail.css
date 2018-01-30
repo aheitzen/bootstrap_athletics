@@ -4,6 +4,7 @@
 	--margin-large: 4em;
 	--margin-medium: 2.5em;
 	--margin-small: 1.5em;
+	--third-color: #F81EBC;
 }
 
 #meta-nav-detail {
@@ -48,7 +49,7 @@ h6 {
 
 p {
 	font-family: var(--paragraph-font);
-	color: black;
+	/*color: black;*/
 }
 
 .freq-bought-img {
@@ -160,27 +161,47 @@ button.btn.btn-primary.btn-lg.btn-block {
  }
 
  #footer {
-	/*width: 100%;*/
+	
 	background-color: #0f69a5;
+	margin-top: 7em;
+	box-shadow: 0px -1px 1px gray;
+
+
+}
+
+#margin-bottom {
+	margin-bottom: 7em;
 }
 
 .oi.oi-phone, .oi.oi-envelope-closed, .oi.oi-home {
 	color: white;
+	text-decoration: none;
 }
 
 .footer-paragraph {
-	color: white;
+	color: white !important;
+	color: var(--primary-color);
+	margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: var(--paragraph-font);
+    
 }
 
+
+
+
 .footer-paragraph:hover {
-	color: var(--third-color);
 	cursor: pointer;
 	text-decoration: underline;
 }
 
 .footer-headers {
-	color: white;
+	color: deepskyblue;
 	font-weight: 900;
+	margin-top: 7em;
+	margin-bottom: 2em;
+	/*font-family: 'Noto Serif', Serif;*/
+	font-family: var(--header-font);
 }
 
 .no-padding {
@@ -198,11 +219,18 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	width: 30%;
 }
 
-svg.svg-inline--fa.fa-facebook-f.fa-w-9, svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16, svg.svg-inline--fa.fa-twitter.fa-w-16, svg.svg-inline--fa.fa-youtube.fa-w-18 {
+ svg.svg-inline--fa.fa-snapchat-ghost.fa-w-16, svg.svg-inline--fa.fa-twitter.fa-w-16, svg.svg-inline--fa.fa-youtube.fa-w-18 {
 	font-size: 1em;
 	margin-top: 1.5em;
 	color: white;
 	margin-left: 20px;
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
+color: white;
+	margin-left: 20px;
+	font-size: 1em;
 }
 /*PRODUCT VIEW CODE*/
 .product-view-img {
@@ -233,3 +261,13 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9, svg.svg-inline--fa.fa-snapchat-ghost.fa
 	border: black 1px solid
 }
 
+/*PAGINATION*/
+
+.page-link {
+	border: white 1px solid;
+	color: deepskyblue;
+}
+
+.pagination {
+	margin-top: 5em;
+}
