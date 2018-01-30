@@ -49,7 +49,7 @@ h6 {
 
 p {
 	font-family: var(--paragraph-font);
-	/*color: black;*/
+	color: black;
 }
 
 .freq-bought-img {
@@ -162,6 +162,8 @@ button.btn.btn-primary.btn-lg.btn-block {
  }
 
  #footer {
+ 	overflow-y: hidden;
+	overflow-x: hidden;
 	
 	background-color: #0f69a5;
 	margin-top: 6em;
@@ -287,3 +289,20 @@ color: white;
 .pagination {
 	margin-top: 5em;
 }
+
+.pinapple {
+	position: absolute;
+    height: 500px;
+    width: 600px;
+/*   	animation: MoveUpDown 5s ease-in infinite;*/
+    z-index: 2;
+    left: -280px;
+    transform: rotate(15deg);
+
+}
+
+.pinapple-img {
+	height: 100%;
+	width: auto;
+}
+
