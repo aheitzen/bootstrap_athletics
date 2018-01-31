@@ -50,16 +50,59 @@ html, body {
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	/*background-color: transparent;*/
-	background-color: #0f69a5;
+	/*background-color: #0f69a5;*/
 	position: fixed;
 }
 
-#nav {
-	height: 40px;
-	background-color: deepskyblue;
+
+ul {
+	padding-left: inherit;
+}
+nav.navbar.navbar-expand-lg.no-padding {
+	margin-top: -20px;
+	background-color: white !important;
+	box-shadow: 0px 1px 1px #80808047;
+
 }
 
-a.nav-link {
+#nav-brand {
+	width: 25%;
+	margin-left: 2em;
+}
+
+.main-nav {
+    color: deepskyblue;
+    margin-left: 4em;
+}
+
+a.nav-link.margin-right {
+    margin-right: 4em;
+    margin-left: 4em;
+    color: deepskyblue;
+}
+a.nav-link.margin-right:hover {
+color: #0056b3;
+}
+
+
+
+#meta-nav-detail {
+	background-color: deepskyblue;
+	height: 2em;
+	padding-top: 3px;
+}
+
+.meta-nav-text {
+	margin-top: -1px;
+	color: white;
+}
+
+/*#nav {
+	height: 40px;
+	background-color: deepskyblue;
+}*/
+
+/*a.nav-link {
     margin-left: 70px;
     color: white;
     font-family: var(--paragraph-font);
@@ -67,7 +110,7 @@ a.nav-link {
 
 a.nav-link:hover {
 	color: var(--third-color);
-}
+}*/
 
 #telephone {
 	margin-left: 0;
@@ -190,10 +233,10 @@ p.product-grid-paragraph {
 
 }
 
-nav.navbar.navbar-expand-lg.no-padding {
+/*nav.navbar.navbar-expand-lg.no-padding {
 	background-color: var(--third-color);
 	margin-top: -11px;
-}
+}*/
 
 h6.card-subtitle.mb-2.text-muted {
 	font-family: var(--paragraph-font);
