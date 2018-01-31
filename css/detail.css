@@ -306,3 +306,9 @@ color: white;
 	width: auto;
 }
 
+.main-headers {
+	font-family: var(--header-font);
+	color: deepskyblue;
+	font-size: 1.5em;
+}
+
