@@ -33,12 +33,14 @@ button#dropdownMenuButton {
 	background-color: white;
 	color: black;
 	width: 100%;
+    /*border: deepskyblue 1px solid;*/
 }
 
 h5 {
 	font-family: var(--header-font);
 	margin-bottom: var(--margin-medium);
 	margin-top: var(--margin-medium);
+	color: deepskyblue;
 }
 
 h6 {
@@ -66,7 +68,7 @@ a:hover {
 }
 
 .black-header {
-	color: black;
+	color: deepskyblue;
 	margin-bottom: var(--margin-small);
 }
 
@@ -140,10 +142,15 @@ span {
 }
 
 button.btn.btn-primary.btn-lg.btn-block {
-	background-color: transparent;
-	color: black;
+	background-color: deepskyblue;
+	color: white;
 	font-family: var(--header-font);
-	border: black 1px solid;
+	border: transparent 1px solid;
+}
+
+button.btn.btn-primary.btn-lg.btn-block:hover {
+	transform: translateY(-1px);
+	box-shadow: 0px 1px 0px #ced4da;
 }
 
 .rec-viewed {
