@@ -356,6 +356,10 @@ svg.svg-inline--fa.fa-lightbulb.fa-w-12:hover {
 	
 }
 
+.no-margin-bottom {
+	margin-bottom: 10px;
+}
+
 @keyframes flash {
 	to { transform: scale(1.2); }
 }
