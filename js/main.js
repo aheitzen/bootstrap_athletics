@@ -132,9 +132,11 @@ var timer = setInterval(function(){
  }, 5600);
 
 $("#main_PD").elevateZoom({
-  zoomType				: "inner",
+  zoomType: "inner",
   cursor: "crosshair"
 });
+
+
 
 
 
