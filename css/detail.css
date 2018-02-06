@@ -360,6 +360,16 @@ svg.svg-inline--fa.fa-lightbulb.fa-w-12:hover {
 	margin-bottom: 10px;
 }
 
+.sub-headline-text {
+	text-decoration: none;
+	/*font-size: 14px;*/
+}
+
+ul.list-group {
+	margin-top: 2em;
+	/*position: fixed;*/
+}
+
 @keyframes flash {
 	to { transform: scale(1.2); }
 }
