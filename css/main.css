@@ -206,10 +206,21 @@ h2 {
 }
 
 h4 {
-	color: var(--third-color);
-	text-align: center;
-	font-family: var(--paragraph-font);
-	margin-top: 20px;
+	color: var(--secondary-color);
+	/*text-align: center;*/
+	font-family: var(--header-font);
+	/*margin-bottom: 1em;*/
+	font-size: 35px;
+    margin-bottom: 1.1em;
+    margin-left: 24px;
+}
+
+.product-grid-h5 {
+	text-align: left;
+	margin-left: 24px;
+	color: #0f69a5;
+	margin-top: -10px;
+	margin-bottom: 30px;
 }
 
 h5 {
@@ -237,11 +248,6 @@ p.product-grid-paragraph {
 
 
 }
-
-/*nav.navbar.navbar-expand-lg.no-padding {
-	background-color: var(--third-color);
-	margin-top: -11px;
-}*/
 
 h6.card-subtitle.mb-2.text-muted {
 	font-family: var(--paragraph-font);
@@ -417,12 +423,14 @@ img.carousel-img {
 #hero {
 	height: 100%;
 	background-color: #0f69a5;
-	background-image: url("../img/hero-4.jpg");
+	/*background-image: url("../img/hero-9.jpeg");*/
+	background-image: url("../img/clip-water-2.jpg");
     background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: cover;
-	background-blend-mode: overlay;
+	background-blend-mode: soft-light;
+/*	transform: translateY(80px);*/
 }
 
 
@@ -612,8 +620,8 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 	color: deepskyblue;
 }
 
-.underline-hover:hover {
-	color: deepskyblue;
+.underline-hover {
+	color: #0f69a5;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -655,6 +663,7 @@ svg.svg-inline--fa.fa-microphone.fa-w-12 {
 
 #health-news {
 	background-color: var(--third-color);
+	margin-top: 10em;
 }
 
 .test-header {
@@ -818,7 +827,7 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 .second-pg-img {
 	height: 100%;
 	width: 100%;
-
+	cursor: pointer;
 
 }
 
@@ -829,19 +838,20 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 }
 
 .text-overlay {
-	position: absolute;
-	margin: 0;
-    top: 50%;
-    left: 57%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-family: var(--header-font);
-    z-index: 10;
-    -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: deepskyblue;
-    font-size: 2.3em;
+	margin-left: 24px;
+	color: var(--secondary-color);
+	font-family: var(--header-font);
+	font-size: 1.7em;
+	margin-top: 1em;
 }
-
+.product-grid-two-links {
+	font-family: var(--paragraph-font);
+	color: #0f69a5;
+	margin-left: 24px;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-top: 1em;
+}
 .text-overlay-news {
 	position: absolute;
 	margin: 0;
@@ -958,18 +968,18 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 
 }
 
-.blue-underline-text:hover {
+/*.blue-underline-text:hover {
 	color: deepskyblue;
 	text-decoration: underline;
 	cursor: pointer;
-}
+}*/
 
 
 
-.hot-pink-underline-text:hover {
+/*.hot-pink-underline-text:hover {
 	color: var(--third-color);
 	text-decoration: underline;
 	cursor: pointer;
-}
+}*/
 
 
