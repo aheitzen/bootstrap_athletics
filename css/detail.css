@@ -183,7 +183,7 @@ button.btn.btn-primary.btn-lg.btn-block:hover {
 
 .rec-viewed {
 	height: 235px;
-
+	margin-top: 2em;
 	
 }
 
@@ -274,6 +274,20 @@ svg.svg-inline--fa.fa-sun.fa-w-16 {
 	color: var(--third-color);
 	font-size: 40px;
 	margin-top: 1.2em;
+}
+
+svg.svg-inline--fa.fa-sun.fa-w-16.disabled {
+	color: #ded9d9;
+}
+
+.text-muted {
+	color: #ded9d9 !important;
+	margin-top: 2em;
+	cursor: pointer;
+}
+
+svg#dismiss-meta-nav:hover {
+	cursor: pointer;
 }
 
 .recomendation-text {
