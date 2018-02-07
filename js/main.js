@@ -140,7 +140,7 @@ function onClose() {
 	$("#closing-nav").css("display", "none");
 	$("#meta-nav-detail").css("background-color", "white");
 	$("nav.navbar.navbar-expand-lg.no-padding").css({
-		"margin-top": "2px",
+		"margin-top": "1px",
 	});
 };
 

@@ -46,18 +46,22 @@ h5 {
 h6 {
 	font-family: var(--paragraph-font);
 	margin-top: var(--margin-small);
-	color: black;
+	color: #0f69a5;
 }
 
 p {
 	font-family: var(--paragraph-font);
-	color: black;
+	color: #0f69a5;
 }
 
 .freq-bought-img {
 	height: 300px;
 	cursor: pointer;
 }
+
+/*.text-muted {
+	color: var(--third-color) !important;
+}*/
 
 a:hover {
 	text-decoration: none;
@@ -80,6 +84,7 @@ li {
 	font-family: var(--paragraph-font);
 	font-size: 15px;
 	line-height: 41px;
+	color: #0f69a5;
 }
 
 .card {
@@ -97,6 +102,7 @@ li {
 .card-text {
 	margin-top: 1em;
 	margin-bottom: var(--margin-medium);
+	color: #0f69a5;
 }
 
 .round-img-section {
@@ -108,13 +114,15 @@ button#dropdownMenuButton {
 	background-color: transparent;
 	font-family: var(--header-font);
 	text-align: left;
+	color: #0f69a5;
+	border: solid 1px #0f69a5;
 }
 
 button#dropdownMenu2 {
 	margin-bottom: var(--margin-small);
 	background-color: transparent;
-	border: solid black 1px;
-	color: black;
+	border: solid #0f69a5 1px;
+	color: #0f69a5;
 	font-family: var(--header-font);
 }
 .meta-nav-text {
