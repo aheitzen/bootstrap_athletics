@@ -118,6 +118,26 @@ button#dropdownMenuButton {
 	border: solid 1px #0f69a5;
 }
 
+.span-review-text {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+h4 {
+	color: deepskyblue;
+	font-family: var(--header-font);
+	margin-top: 2.2em;
+}
+
+.review-images {
+	height: 200px;
+	margin-left: 2em;
+}
+
+.review-paragraph-text {
+	margin-top: 2.2em;
+}
+
 button#dropdownMenu2 {
 	margin-bottom: var(--margin-small);
 	background-color: transparent;
@@ -248,6 +268,16 @@ a.nav-link.margin-right {
     margin-right: 4em;
     margin-left: 4em;
     color: deepskyblue;
+}
+
+svg.svg-inline--fa.fa-sun.fa-w-16 {
+	color: var(--third-color);
+	font-size: 40px;
+	margin-top: 1.2em;
+}
+
+.recomendation-text {
+	color: deepskyblue;
 }
 a.nav-link.margin-right:hover {
 color: #0056b3;
