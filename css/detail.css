@@ -281,8 +281,6 @@ svg.svg-inline--fa.fa-sun.fa-w-16.disabled {
 }
 
 .text-muted {
-	color: #ded9d9 !important;
-	margin-top: 2em;
 	cursor: pointer;
 }
 
@@ -425,3 +423,12 @@ ul.list-group {
 @keyframes flash {
 	to { transform: scale(1.2); }
 }
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px) {
+  	.ps-paragraph {
+  		font-size: 16px;
+  		margin: 1.5em;
+  	}
+  }
