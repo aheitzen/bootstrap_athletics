@@ -412,7 +412,9 @@ svg.svg-inline--fa.fa-lightbulb.fa-w-12:hover {
 
 .sub-headline-text {
 	text-decoration: none;
-	/*font-size: 14px;*/
+	color: #0f69a5;
+	font-family: var(--paragraph-font);
+	margin-left: 3px;
 }
 
 ul.list-group {
@@ -430,5 +432,15 @@ ul.list-group {
   	.ps-paragraph {
   		font-size: 16px;
   		margin: 1.5em;
+  		margin-bottom: 3em;
   	}
+  	nav.navbar.navbar-expand-lg.no-padding {
+    	height: 4em;
+	}
+	.pinapple-img {
+		display: none;
+	}
+	.pinapple {
+		display: none;
+	}
   }

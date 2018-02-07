@@ -59,7 +59,7 @@ ul {
 	padding-left: inherit;
 }
 nav.navbar.navbar-expand-lg.no-padding {
-	margin-top: -20px;
+	margin-top: -23px;
 	background-color: white !important;
 	box-shadow: 0px 1px 1px #80808047;
 	height: 4.4em;
@@ -187,20 +187,21 @@ input.form-control {
 
 /*TYPOGRAPHY*/
 h1 {
-	text-align: center;
+	/*text-align: center;*/
 	color: var(--primary-color);
 	font-family: var(--header-font);
-	text-align: center;
-	font-size: 130px;
-	margin-top:;
+	font-size: 100px;
+	margin-top: 180px;
+	margin-left: 100px;
+
 }
 
 h2 {
-	text-align: center;
+	
 	color: var(--primary-color);
 	font-family: var(--header-font);
 	font-size: 1.3em;
-	text-align: center;
+	margin-left: 100px;
 	margin-top: var(--small-em);
 }
 
@@ -260,6 +261,7 @@ span {
 	color: var(--primary-color);
 	font-family: var(--paragraph-font);
 	text-align: center;
+	text-decoration: underline;
 }
 
 .hero-type-position {
@@ -411,40 +413,26 @@ img.carousel-img {
 
 }
 
-img#underwear-img {
-	height: 80%;
-	width: 80%;
 
-}
-
-/*.goggle-float {
-	position: absolute;
-    height: 500px;
-    width: 500px;
-   	animation: MoveSideWays 10s linear infinite;
-    z-index: 2;
-    transform: rotate(-25deg);
-    left: 50px; 
-    top: 50px;
-
-}
-
-#goggle-img {
-	height: 80%;
-	width: 80%;
-
-}*/
-/*#hero {
+#hero {
 	height: 100%;
-	background-color: white;
-	background-image: url("../img/clip-water-2.jpg");
+	background-color: #0f69a5;
+	background-image: url("../img/hero-4.jpg");
     background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: cover;
-}*/
-#hero-position {
-	overflow-x: hidden;
+	background-blend-mode: overlay;
+}
+
+
+
+
+
+.hero-img {
+	height: 20.63%;
+	width: auto;
+	margin-left: 0;
 }
 
 .goggle-float {
@@ -459,11 +447,6 @@ img#underwear-img {
 
 }
 
-#goggle-img {
-	height: 80%;
-	width: 80%;
-
-}
 
 .white-border {
 	background-color: white;
@@ -819,7 +802,7 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	font-family: var(--paragraph-font);
 	margin: 2.5em 2em 0 2em;
 	line-height: 2.5;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 .dead-center {
@@ -956,23 +939,6 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
     margin: .5em 2em 0 2em;
     line-height: 2.5;
     font-size: 1em;
-}
-
-#hero-two {
-	/*background-image: url("../img/hero-test.jpg");*/
-/*	background: linear-gradient(rgba(0, 191, 255, 0.7), rgba(225, 225, 255, 0.5)), url("../img/hero-test.jpg");
-	height: 100%;
-	width: 100%;
-	background-position: cover;
-    background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: cover;
-	display: flex;
-    justify-content: center;*/
-    background-color: #0f69a5;
-    height: 100%;
-    width: 100%;
 }
 
 #news {
