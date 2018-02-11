@@ -56,6 +56,7 @@ h6 {
 
 .dropdown-menu {
 	border: transparent;
+	margin-left: 3em;
 }
 
 a.dropdown-item {
@@ -295,6 +296,10 @@ a.nav-link.margin-right {
     color: deepskyblue;
 }
 
+a#navbarDropdown {
+	margin-left: 3em;
+}
+
 svg.svg-inline--fa.fa-sun.fa-w-16 {
 	color: var(--third-color);
 	font-size: 40px;
@@ -482,7 +487,7 @@ label.custom-control-label {
 
 button.btn.btn-link {
 	color: #0f69a5;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 @keyframes flash {
