@@ -44,14 +44,32 @@ h5 {
 }
 
 h6 {
-	font-family: var(--paragraph-font);
+	font-family: var(--header-font);
 	margin-top: var(--margin-small);
 	color: #0f69a5;
+	font-size: 1.2em;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+	border: transparent;
+}
+
+a.dropdown-item {
+    color: deepskyblue;
+    font-size: 14px;
+}
+
+.dropdown-toggle::after {
+	visibility: hidden;
 }
 
 p {
 	font-family: var(--paragraph-font);
-	color: #0f69a5;
+	color: #868e96;
 }
 
 .freq-bought-img {
@@ -436,6 +454,35 @@ svg.svg-inline--fa.fa-lightbulb.fa-w-12:hover {
 ul.list-group {
 	margin-top: 2em;
 	/*position: fixed;*/
+}
+
+.card-header {
+	background-color: transparent;
+	padding-left: 0;
+	width: 200px;
+}
+
+#headingOne {
+	margin-top: 2em;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: deepskyblue;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #0f69a5;
+}
+
+label.custom-control-label {
+	font-family: var(--paragraph-font);
+	color: #0f69a5;
+	font-size: 14px;
+}
+
+button.btn.btn-link {
+	color: #0f69a5;
+	font-size: 14px;
 }
 
 @keyframes flash {
