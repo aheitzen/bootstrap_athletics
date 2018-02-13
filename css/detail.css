@@ -458,8 +458,31 @@ svg.svg-inline--fa.fa-lightbulb.fa-w-12:hover {
 
 ul.list-group {
 	margin-top: 2em;
-	/*position: fixed;*/
 }
+
+svg.svg-inline--fa.fa-shopping-cart.fa-w-18 {
+	color: deepskyblue;
+	margin-top: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+svg.svg-inline--fa.fa-search.fa-w-16 {
+	color: deepskyblue;
+	margin-top: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 30px;
+}
+
+label {
+	color: deepskyblue;
+}
+
+
 
 .card-header {
 	background-color: transparent;
@@ -521,5 +544,8 @@ button.btn.btn-link {
 	a.nav-link.margin-right {
 		background-color: white;
 		margin-left: 10px;
+	}
+	.navbar-nav {
+		background-color: white;
 	}
   }
