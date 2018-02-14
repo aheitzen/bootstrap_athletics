@@ -33,7 +33,6 @@ button#dropdownMenuButton {
 	background-color: white;
 	color: black;
 	width: 100%;
-    /*border: deepskyblue 1px solid;*/
 }
 
 h5 {
@@ -77,10 +76,6 @@ p {
 	height: 300px;
 	cursor: pointer;
 }
-
-/*.text-muted {
-	color: var(--third-color) !important;
-}*/
 
 a:hover {
 	text-decoration: none;
@@ -147,8 +142,6 @@ h4 {
 	font-family: var(--header-font);
 	margin-top: 2.2em;
 }
-
-
 
 button.navbar-toggler {
     margin-right: 1em;
@@ -549,5 +542,15 @@ button.btn.btn-link {
 	}
 	.navbar-nav {
 		background-color: white;
+	}
+	.footer-headers {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	p#margin-bottom {
+		margin-bottom: 10px;
+	}
+	img.review-images.img-responsive {
+		display: none;
 	}
   }
