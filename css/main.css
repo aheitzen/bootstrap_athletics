@@ -338,7 +338,7 @@ img {
 }
 
 
-@media only screen 
+/*@media only screen 
   and (min-width: 320px) 
   and (max-width: 480px) {
   	.navbar-brand {
@@ -347,13 +347,16 @@ img {
   	.navbar-brand-mobile {
   		display: inline;
   	}
-}
+}*/
 
 img.carousel-img {
 	height: 400px;
 	width: 400px;
 }
 
+svg.svg-inline--fa.fa-bars.fa-w-14 {
+	color: grey;
+}
 
 .btn.btn-light {
 	background-color: white;
@@ -380,7 +383,7 @@ label {
 }
 
 #main-cta-button {
-	margin-left: 15em;
+	margin-left: 6em;
 }
 
 
@@ -732,6 +735,21 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 480px) {
+  	.card {
+  		height: 750px;
+  	}
+  	.second-pg-img {
+    	height: 80%;
+    	width: 80%;
+	}
+  	button.btn.btn-light {
+  		margin-top: 0;
+  		margin-left: 20px;
+  	}
+  	button#main-cta-button {
+  		margin-left: 0;
+  		margin-left: 20px;
+  	}
   	.ps-paragraph {
   		font-size: 16px;
   		margin: 1.5em;
@@ -804,18 +822,23 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 		width: 77.5px;
 	}
 	h6.main-headers {
-    margin-top: 0px;
+    	margin-top: 0px;
 	}	
 	.test-section {
+		display: none;
+	}
+	#product-grid {
 		display: none;
 	}
 	h1 {
 		font-size: 4em;
 		margin-left: 10px;
+		margin-top: 220px;
 	}
 	h2 {
 		margin-left: 10px;
 		font-size: 18px;
+		margin-bottom: 60px;
 	}
 	#news {
 		display: none;
@@ -825,6 +848,20 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	}
 	#footer {
 		height: 121%;
+	}
+	div#second-product-grid {
+		margin-bottom: 2em;
+	}
+	#health-news {
+		margin-top: .5em;
+	}
+	img#nav-brand {
+		width: 77.5px;
+		height: 32.54px;
+	}
+	button.navbar-toggler {
+		/*border: 1px grey solid;*/
+		margin-right: 10px;
 	}
 }
 
