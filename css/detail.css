@@ -526,6 +526,9 @@ button.btn.btn-link {
 	.pinapple-img {
 		display: none;
 	}
+	#accordion {
+		display: none;
+	}
 	.pinapple {
 		display: none;
 	}
@@ -580,4 +583,43 @@ button.btn.btn-link {
 	button.btn.btn-primary.btn-lg.btn-block {
 		width: 88%;
 	}
-  }
+	img#nav-brand {
+		width: 77.5px;
+	}
+	h6.main-headers {
+    margin-top: 0px;
+	}	
+}
+
+  @media only screen
+and (min-width : 481px) 
+and (max-width : 1024px) { 
+	img.review-images.img-responsive {
+		display: none;
+	}
+	.pinapple-img {
+		display: none;
+	}
+	.pinapple {
+		display: none;
+	}
+	.top-margin-thumbnail {
+		display: none;
+	}
+	.card {
+		margin-top: 1em;
+	}
+	.footer-headers {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	p#margin-bottom {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen
+and (min-width : 768px) 
+and (max-width : 1024px) {
+
+}
