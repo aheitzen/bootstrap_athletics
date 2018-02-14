@@ -616,6 +616,12 @@ and (max-width : 1024px) {
 	p#margin-bottom {
 		margin-bottom: 10px;
 	}
+	#accordion {
+		display: none;
+	}
+	.product-view-img {
+		height: 18em;
+	}
 }
 
 @media only screen
