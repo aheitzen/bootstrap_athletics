@@ -553,4 +553,25 @@ button.btn.btn-link {
 	img.review-images.img-responsive {
 		display: none;
 	}
+	.top-margin-thumbnail {
+		display: none;
+	}
+	#main_PD {
+		height: 435px;
+	}
+	.card {
+		margin-top: 1em;
+	}
+	.card-body {
+		padding-left: 0;
+	}
+	.card-text {
+		margin-right: 50px;
+	}
+	button#dropdownMenuButton {
+		width: 88%;
+	}
+	button.btn.btn-primary.btn-lg.btn-block {
+		width: 88%;
+	}
   }
